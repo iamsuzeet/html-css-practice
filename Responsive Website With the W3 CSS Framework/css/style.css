@@ -1,0 +1,54 @@
+/*
+ My App W3 school Sass Theme
+ Author: Sujit Dhaugoda
+ Version: 0.0.1
+*/
+/* BASE - Base styles, variables, mixins etc */
+.section img {
+  width: 100%; }
+
+/* Modules- Blocks, Buttons, Components, Section, Topography etc*/
+/* SEction Showcase */
+.showcase {
+  background: url("../img/showcase.jpg") no-repeat;
+  background-position: center;
+  height: 600px;
+  padding: 140px 100px;
+  color: #fff; }
+  .showcase h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .showcase hr {
+    width: 100px;
+    margin: auto;
+    border-width: 3px;
+    border-color: #f44336; }
+  .showcase p {
+    font-size: 16px;
+    padding-bottom: 20px; }
+
+.section {
+  padding: 40px 0 !important; }
+  .section h2 {
+    padding: 0;
+    margin: 0; }
+
+/* ICONS */
+.fa-6 {
+  font-size: 50px; }
+
+/* Layouts - Header, Footer, Navigation etc */
+/* BRANDING */
+.branding {
+  font-size: 17px; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin-top: 190px; }
+
+  .showcase {
+    height: 400px;
+    padding: 60px 0; } }
+
+/*# sourceMappingURL=style.css.map */

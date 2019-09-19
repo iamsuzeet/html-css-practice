@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CSS Grids</title>
+	<style>
+
+		.wrapper{
+			display: grid;
+			grid-template-columns: 70% 30%;
+			/*grid-column-gap: 1em;
+			grid-row-gap: 1em;*/
+			
+			grid-gap: 1em;
+
+
+		}
+
+
+		.wrapper > div{
+			background: #eee;
+			padding: 1em;
+		}
+
+		.wrapper > div:nth-child(odd){
+			background: #ddd;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eos suscipit, commodi ut deleniti nobis tenetur repellat rem ab officia itaque delectus id est tempora quam non, ipsa minima aliquam, aspernatur nostrum soluta beatae consequuntur. Culpa quaerat dolorum maxime tempore sequi repudiandae quidem neque quo quam doloribus maiores eos quas minus sit, aut sint quis nesciunt asperiores expedita debitis, suscipit temporibus nobis! Cupiditate soluta velit, quaerat eius nulla, dignissimos amet, aliquam explicabo beatae ea quos dolore! Atque quis accusamus natus.
+		</div>
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus praesentium recusandae veritatis velit laboriosam, ipsum libero in excepturi vitae, qui ullam quod natus aperiam reiciendis, quaerat at maxime explicabo ratione.
+		</div>
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eos suscipit, commodi ut deleniti nobis tenetur repellat rem ab officia itaque delectus id est tempora quam non, ipsa minima aliquam, aspernatur nostrum soluta beatae consequuntur. Culpa quaerat dolorum maxime tempore sequi repudiandae quidem neque quo quam doloribus maiores eos quas minus sit, aut sint quis nesciunt asperiores expedita debitis, suscipit temporibus nobis! Cupiditate soluta velit, quaerat eius nulla, dignissimos amet, aliquam explicabo beatae ea quos dolore! Atque quis accusamus natus.
+		</div>
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus praesentium recusandae veritatis velit laboriosam, ipsum libero in excepturi vitae, qui ullam quod natus aperiam reiciendis, quaerat at maxime explicabo ratione.
+		</div>
+		
+	</div>
+</body>
+</html>

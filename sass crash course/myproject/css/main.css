@@ -1,0 +1,73 @@
+/* line 1, ../scss/base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/base/_reset.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 1, ../scss/base/_base.scss */
+body {
+  font-family: 'Georgia', sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5em;
+  background: #f4f4f4;
+}
+
+/* line 9, ../scss/base/_base.scss */
+#container {
+  width: 960px;
+  margin: 20px auto;
+  overflow: hidden;
+  border: #ccc solid 1px;
+  backgound: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 24, ../scss/base/_base.scss */
+section {
+  min-height: 200px;
+}
+
+/* line 1, ../scss/layout/_header.scss */
+header {
+  background: orange;
+  color: white;
+  height: 90px;
+}
+/* line 6, ../scss/layout/_header.scss */
+header h1 {
+  padding: 20px 0 0 10px;
+}
+
+/* line 1, ../scss/layout/_footer.scss */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: orange;
+}
+
+/* line 1, ../scss/layout/_nav.scss */
+nav {
+  height: 30px;
+  background: #000;
+  color: #fff;
+  padding-top: 10px;
+}
+
+/* line 7, ../scss/layout/_nav.scss */
+nav li {
+  float: left;
+  padding: 0 20px 0 20px;
+}
+
+/* line 12, ../scss/layout/_nav.scss */
+nav a {
+  color: white;
+}
